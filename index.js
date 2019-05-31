@@ -2,6 +2,5 @@
 
 const interlaceArrays = require('interlace-arrays')
 
-module.exports = (arrayOfStringsToInterlace) => {
-  return interlaceArrays(arrayOfStringsToInterlace.map(x => x.split(''))).join('')
-}
+module.exports = (arrayOfStringsToInterlace) =>
+  interlaceArrays(arrayOfStringsToInterlace.map(x => x.split(''))).join('')
