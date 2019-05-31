@@ -8,7 +8,7 @@ Interlaces strings together.
 
 ## Node Repository
 
-[https://www.npmjs.com/package/@pelevesque/interlace-strings](https://www.npmjs.com/package/@pelevesque/interlace-strings)
+https://www.npmjs.com/package/@pelevesque/interlace-strings
 
 ## Installation
 
