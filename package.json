@@ -1,6 +1,6 @@
 {
   "name": "@pelevesque/interlace-strings",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Interlaces strings together.",
   "main": "index.js",
   "engines": {
