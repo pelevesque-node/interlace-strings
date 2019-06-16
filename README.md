@@ -33,7 +33,8 @@ const interlaceStrings = require('@pelevesque/interlace-strings')
 ```js
 const str1 = '12345'
 const str2 = 'abcde'
-const result = interlaceStrings([str1, str2])
+const arrayOfStrings = [str1, str2]
+const result = interlaceStrings(arrayOfStrings)
 // result === 1a2b3c4d5e
 ```
 
@@ -42,6 +43,7 @@ const str1 = '12345678'
 const str2 = 'abcdef'
 const str3 = '!@#$'
 const str4 = '_-'
-const result = interlaceStrings([str1, str2, str3, str4])
+const arrayOfStrings = [str1, str2, str3, str4]
+const result = interlaceStrings(arrayOfStrings)
 // result === 1a!_2b@-3c#4d$5e6f78
 ```
